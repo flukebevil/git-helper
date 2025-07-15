@@ -1,16 +1,21 @@
 {
-  "name": "myscript",
-  "version": "1.0.0",
+  "name": "fluke-git-helper",
+  "version": "0.1.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "fkgit": "./index.js"
+  },
+  "keywords": [
+    "fkgit"
+  ],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "chalk": "^5.4.1",
-    "readline-sync": "^1.4.10"
+    "chalk": "5.4.1",
+    "readline-sync": "1.4.10"
   }
 }
