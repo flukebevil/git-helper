@@ -2,11 +2,12 @@
   "name": "fluke-git-helper",
   "version": "0.1.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "fkgit": "./index.js"
+    "fkgit": "index.js"
   },
   "keywords": [
     "fkgit"
