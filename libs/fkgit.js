@@ -2,6 +2,7 @@
 import { execSync } from "child_process";
 import chalk from "chalk";
 import { selectPaginationItem } from "./readline-helper.js";
+import readlineSync from "readline-sync";
 
 const exceptBranches = ["main"];
 
